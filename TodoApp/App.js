@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { StyleSheet, Text, View, TouchableOpacity, TextInput, Alert, FlatList, Modal, Image } from 'react-native';
 import DateTimePickerModal from 'react-native-modal-datetime-picker';
 import { StatusBar } from 'expo-status-bar';
-import logo from './assets/LOGO.jpg'; // Adjust the path if necessary
+import logo from './assets/LOGO.jpg'; 
 
 export default function App() {
   const [taskDescription, setTaskDescription] = useState('');
