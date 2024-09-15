@@ -23,6 +23,7 @@ const App = () => {
   const resetForm = () => {
     setTaskDescription('');
     setTaskDeadline('');
+    setEditingId(null);
     setModalVisible(false);
   };
 
